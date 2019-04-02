@@ -1,1 +1,67 @@
 @charset "UTF-8";
+
+body{
+    margin: 0;
+    /*
+    background-image: url(/img/index-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    */
+    background: rgba(82,215,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(82,215,255,1) 0%, rgba(34,0,224,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(82,215,255,1)), color-stop(100%, rgba(34,0,224,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(82,215,255,1) 0%, rgba(34,0,224,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(82,215,255,1) 0%, rgba(34,0,224,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(82,215,255,1) 0%, rgba(34,0,224,1) 100%);
+    background: linear-gradient(135deg, rgba(82,215,255,1) 0%, rgba(34,0,224,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52d7ff', endColorstr='#2200e0', GradientType=1 );
+
+    height: 100vh;
+    padding-top: 21vh;
+    box-sizing: border-box;
+}
+
+.logo{
+   margin-left: 22px;
+   margin-bottom: 30px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(20, 20, 20);
+}
+
+form{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px 10px 10px 10px;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 10px 50px 8px;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+input[type="text"], input[type="password"]{
+    font-size: 1.1em;
+    border: thin solid rgba(0,0,0,.2);
+}
+
+input[type="submit"]{
+    background: rgb(55, 0, 255);
+    color: rgb(240, 240, 240);
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
