@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Administración - Multilingual</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/admin.css">
+    <!-- Font awesome (iconos) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Fuentes personalizadas -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="js/admin.js"></script>
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            MULTILINGUAL
+        </div>
+
+        <!-- Aquí se encuentran la caja de búsqueda y el botón de usuario -->
+        <div class="header-buttons">
+            <input type="text" placeholder="Buscar...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+            
+            <!-- En este botón iría el nombre del usuario que está logeado -->
+            <button type="button">Alexis D.  <i class="fas fa-angle-down"></i></button>
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <!-- Aquí se encuentra la lista de opciones, las que son para agregar usuarios y administradores -->        
+        <div class="options-side">
+
+            <h3>USUARIOS</h3>
+
+                <li><button><i class="fas fa-users"></i>   Ver usuarios</button></li>
+                <li><button id="addusers"><i class="fas fa-user-plus"></i>   Agregar usario</button></li>
+                <li><button><i class="fas fa-user-minus"></i>   Borrar usuario</button></li>
+
+            <h3>ADMINISTRADORES</h3>
+            
+                <li><button><i class="fas fa-users-cog"></i> Ver administradores</button></li>
+                <li><button><i class="fas fa-user-cog"></i> Añadir administradores</button></li>
+                <li><button><i class="fas fa-user-times"></i> Borrar administrador</button></li>
+        </div>
+
+        <!-- Este es el div que se va a estar sobreescribiendo según la opción que se seleccione -->
+        <div class="display-side" id="content">
+
+            <div class="icon">
+                    <i class="fas fa-cogs"></i>
+            </div>
+
+            <div class="msg">
+                ¡Bienvenido al sitio de administración de Multilingual!<br>
+                Por favor, selecciona una de las opciones de la izquierda para comenzar a administrar.
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

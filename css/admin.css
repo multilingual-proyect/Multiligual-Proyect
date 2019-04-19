@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+
+/* CONFIGURACION GENERAL DEL HEADER */
+
+header{
+    height: 60px;
+    box-sizing: border-box;
+    background: rgb(120, 70, 70);
+    z-index: 1000;
+}
+
+.logo{
+    height: 60px;
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    color: white;
+    font-size: 1.6em;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+.logo:first-letter{
+    font-size: 2em;
+}
+
+.header-buttons{
+    padding-top: 11px;
+    box-sizing: border-box;
+    float: right;
+    margin-right: 5%;
+}
+
+.header-buttons input[type="text"]{
+    padding: 10px;
+    width: 200px;
+    margin: 0;
+    float:left;
+    border: none;
+}
+
+.header-buttons button[type="submit"]{
+    padding: 10px;
+    margin: 0;
+    float: left;
+    border: none;
+    cursor: pointer;
+    background: rgb(120, 170, 190);
+    color: white;
+}
+
+.header-buttons button[type="button"]{
+    padding: 10px;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    background: rgb(120, 170, 190);
+    color: white;
+    font-weight: bold;
+}
+
+/* CONFIGURACION GENERAL DEL CUERPO DEL SITIO */
+
+.container{
+    max-width: 1920px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.options-side{
+    box-sizing: border-box;
+    float: left;
+    width:15%;
+    border-right: solid thin rgb(200, 200, 200);
+    min-height: 100vh;
+}
+
+.options-side h3{
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(90, 90, 90);
+}
+
+.options-side li{
+    list-style: none;
+    text-align: center;
+}
+
+.options-side li button{
+    width: 100%;
+    padding: 40px 10px 40px 10px;
+    border: none;
+    background: white;
+    font-size: 1em;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+.options-side li button:hover{
+    background: rgb(200, 200, 200);
+}
+
+.display-side{
+    box-sizing: border-box;
+    float: right;
+    width: 85%;
+}
+
+.icon{
+    padding-top: 150px;
+    font-size: 13em;
+    text-align: center;
+    color: rgb(80, 55, 58);
+}
+
+.msg{
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    width: 80%;
+    color: rgb(119, 119, 119);
+}
+
+/* CONFIGURACIONES GLOBALES */
+
+form{
+    width:400px;
+    box-sizing: border-box;
+    margin: auto;
+    padding:30px;
+    margin-top: 40px;
+    background: rgb(50, 140, 170);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.form-icon{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin:0;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+form input[type="text"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.center-button{
+    margin: auto;
+    text-align: center;
+}
+
+form input[type="submit"]{
+    border: none;
+    padding:20px;
+    background: rgb(120,70,70)   ;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+}
+
+/* CONFIGURACIÓN GENERAL DE LAS TABLAS */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;    
+}
+
+table td, table th{
+    padding: 20px;
+    border: solid thin rgb(150, 150, 150);
+}
+
+table tr th{
+    background: rgb(120, 70, 70);
+}
